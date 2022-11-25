@@ -110,3 +110,7 @@ button:hover{
     rgba(132, 53, 222, 1) 100%
   );
 }
+
+.btn--reiniciar--ranking{
+  border: 2px solid #fff;
+}
