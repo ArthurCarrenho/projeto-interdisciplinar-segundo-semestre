@@ -12,7 +12,7 @@ function Ranking(){
     const [post, setPost] = React.useState(null);
 
   React.useEffect(() => {
-    Axios.get(`http://localhost:4000/consult`).then((response) => {
+    Axios.get(`https://dark-sound-6414.fly.dev/consult`).then((response) => {
       setPost(response.data);
     });
   }, []);

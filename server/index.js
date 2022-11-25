@@ -33,4 +33,4 @@ app.post("/create", async (req, res) => {
     }
 })
 
-app.listen(4000, () => console.log("Servidor Rodando: Porta 4000"))
+app.listen(8080, () => console.log("Servidor Rodando: Porta 8080"))

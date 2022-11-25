@@ -24,10 +24,11 @@ function GameOver() {
       setListValues()
       setValues()
     
-      Axios.post("http://localhost:4000/create", {
+      Axios.post("https://dark-sound-6414.fly.dev/create", {
         nome: values.name,
         pontos: quizState.score
       })    
+      dispatch({type: "CHECK-RANKING"})
   }
 
   return (
